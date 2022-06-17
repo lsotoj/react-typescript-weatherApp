@@ -1,0 +1,61 @@
+.tituloCiudad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  color: #4C3A51 ;
+  background-color: #f5d95b;
+  border-radius: 5px;
+  height: 50px;
+  font-weight: bold;
+  margin: 15px;
+  border: #e9c46a solid 1px;
+  font-size: 22px;
+}
+
+.measurements {
+  display: block;
+  background: url('https://i.imgur.com/oy1n4UP.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  /* font-family: 'Merriweather Sans', sans-serif; */
+  height: 450px;
+  border-radius: 5px;
+  
+}
+
+.measure {
+  font-size: 30px;
+  font-weight: 50;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+
+.inputText {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  width: 40%;
+  height: 12px;
+  color: hsl(0, 0, 20);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 4px hsla(0, 0, 0,);
+}
+
+.selectContainer {
+  margin-bottom: 5px;
+}
+
+.description {
+  padding: 5px;
+}

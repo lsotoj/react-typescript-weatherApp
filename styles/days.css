@@ -1,0 +1,24 @@
+.dayContainer{
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 3px;
+  font-size: 10px;
+  text-align: center;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif f; */
+}
+
+.daysContainer{
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+
+}
+
+.tempText {
+  font-style: oblique;
+  font-size: 15px;
+}
